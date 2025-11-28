@@ -92,8 +92,6 @@ Nenhum aluno foi registrado.
 
 PSEUDOCÓDIGO:
 
-INÍCIO
-
     criar lista nomes_alunos vazia
 
     ENQUANTO verdadeiro FAÇA
@@ -123,7 +121,6 @@ INÍCIO
 
     FIMSE
 
-FIM
 
 🧾 4. Dicionários
 🛒 Cadastro de Produtos (nome e preço)
