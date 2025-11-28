@@ -1,5 +1,5 @@
-🧠 1. Estruturas Condicionais
-✅ Verificação de Idade
+**🧠 1. Estruturas Condicionais**  
+**✅ Verificação de Idade**
 
 O programa solicita a idade do usuário e, com base no valor informado, determina:
 
@@ -9,14 +9,14 @@ Entrada não permitida (até 17 anos)
 
 Entrada liberada (18 anos ou mais)
 
-🧪 Exemplos de Entrada/Saída
-Entrada	Saída
--3	Idade inválida.
-16	Entrada não permitida.
-25	Entrada liberada.
+**🧪 Exemplos de Entrada/Saída:**  
+**-3** = Idade inválida.  
+**16** = Entrada não permitida.  
+**25** = Entrada liberada.
 
-PSEUDOCÓDIGO:
-ESCREVA "Digite a sua idade"
+**PSEUDOCÓDIGO:**
+
+    ESCREVA "Digite a sua idade"
     LEIA idade
 
     SE idade < 0 ENTÃO
@@ -29,16 +29,22 @@ ESCREVA "Digite a sua idade"
         ESCREVA "Entrada liberada."
 
 
-🔁 2. Estruturas de Repetição 💎 Números Pares com For e While
+**🔁 2. Estruturas de Repetição**  
+**💎 Números Pares com For e While**  
 O arquivo apresenta duas maneiras diferentes de exibir todos os números pares de 1 a 100:
 
 Usando um loop for
 
 Usando um loop while
 
-📝 Exemplo de Saída 2 4 6 ... 100
+**📝 Exemplo de Saída:**  
+2  
+4  
+6  
+...  
+100
 
-PSEUDOCÓDIGO (FOR):
+**PSEUDOCÓDIGO (FOR):**
 
     PARA n DE 1 ATÉ 100 FAÇA
         
@@ -48,7 +54,7 @@ PSEUDOCÓDIGO (FOR):
 
     FIMPARA
 
-PSEUDOCÓDIGO (WHILE):
+**PSEUDOCÓDIGO (WHILE):**
 
 
     n ← 1
@@ -64,33 +70,30 @@ PSEUDOCÓDIGO (WHILE):
     FIMENQUANTO
 
 
-📋 3. Listas
-🧑‍🎓 Cadastro e Listagem de Alunos
+**📋 3. Listas**  
+**🧑‍🎓 Cadastro e Listagem de Alunos**
 
-O usuário insere nomes de alunos livremente.
+O usuário insere nomes de alunos livremente.  
 Os nomes são armazenados em uma lista e, quando o usuário pressiona Enter sem digitar nada, o programa encerra e exibe todos os nomes cadastrados.
 
-🧪 Exemplos de Entrada/Saída
+**🧪 Exemplos de Entrada/Saída:**  
 
-Entrada:
+**Entrada:**  
+Digite o nome do aluno: Pedro  
+Digite o nome do aluno: Ana  
+Digite o nome do aluno:  
 
-Digite o nome do aluno: Pedro
-Digite o nome do aluno: Ana
-Digite o nome do aluno:
-
-
-Saída:
-
-Lista de alunos:
-Pedro
-Ana
+**Saída:**  
+Lista de alunos:  
+Pedro  
+Ana  
 
 
 Se nenhum nome for digitado:
 
 Nenhum aluno foi registrado.
 
-PSEUDOCÓDIGO:
+**PSEUDOCÓDIGO:**
 
     criar lista nomes_alunos vazia
 
@@ -122,37 +125,34 @@ PSEUDOCÓDIGO:
     FIMSE
 
 
-🧾 4. Dicionários
-🛒 Cadastro de Produtos (nome e preço)
+**🧾 4. Dicionários**  
+**🛒 Cadastro de Produtos (nome e preço).**  
+O usuário cadastra produtos informando nome e preço.  
+Os itens são armazenados em uma lista de dicionários.  
+Ao deixar o nome em branco, o programa finaliza o cadastro e exibe todos os produtos.  
 
-O usuário cadastra produtos informando nome e preço.
-Os itens são armazenados em uma lista de dicionários.
-Ao deixar o nome em branco, o programa finaliza o cadastro e exibe todos os produtos.
+**🧪 Exemplos de Entrada/Saída**  
 
-🧪 Exemplos de Entrada/Saída
+**Entrada:**  
 
-Entrada:
+Nome do produto: Arroz  
+Preço de Arroz: 23.50  
 
-Nome do produto: Arroz
-Preço de Arroz: 23.50
-
-Nome do produto: Feijão
-Preço de Feijão: 7.80
+Nome do produto: Feijão  
+Preço de Feijão: 7.80  
 
 Nome do produto:
-
-
-Saída:
-
-Produto: Arroz | Preço: 23.5
+  
+  
+**Saída:**  
+Produto: Arroz | Preço: 23.5  
 Produto: Feijão | Preço: 7.8
 
 
-Se nada for cadastrado:
-
+Se nada for cadastrado:  
 Nenhum produto cadastrado.
 
-PSEUDOCÓDIGO:
+**PSEUDOCÓDIGO:**
 
     criar lista produtos vazia
 
