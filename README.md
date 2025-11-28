@@ -38,6 +38,32 @@ Usando um loop while
 
 📝 Exemplo de Saída 2 4 6 ... 100
 
+PSEUDOCÓDIGO (FOR):
+
+    PARA n DE 1 ATÉ 100 FAÇA
+        
+        SE n MOD 2 = 0 ENTÃO
+            ESCREVA n
+        FIMSE
+
+    FIMPARA
+
+PSEUDOCÓDIGO (WHILE):
+
+
+    n ← 1
+
+    ENQUANTO n ≤ 100 FAÇA
+
+        SE n MOD 2 = 0 ENTÃO
+            ESCREVA n
+        FIMSE
+
+        n ← n + 1
+
+    FIMENQUANTO
+
+
 📋 3. Listas
 🧑‍🎓 Cadastro e Listagem de Alunos
 
