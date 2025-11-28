@@ -14,6 +14,7 @@ Entrada	Saída
 -3	Idade inválida.
 16	Entrada não permitida.
 25	Entrada liberada.
+
 🔁 2. Estruturas de Repetição
 🔹 Números Pares com For e While
 
