@@ -15,6 +15,20 @@ Entrada	Saída
 16	Entrada não permitida.
 25	Entrada liberada.
 
+PSEUDOCÓDIGO:
+ESCREVA "Digite a sua idade"
+    LEIA idade
+
+    SE idade < 0 ENTÃO
+        ESCREVA "Idade inválida."
+    
+    SENÃO SE idade <= 17 ENTÃO
+        ESCREVA "Entrada não permitida."
+    
+    SENÃO
+        ESCREVA "Entrada liberada."
+
+
 🔁 2. Estruturas de Repetição 💎 Números Pares com For e While
 O arquivo apresenta duas maneiras diferentes de exibir todos os números pares de 1 a 100:
 
