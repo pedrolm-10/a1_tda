@@ -151,3 +151,38 @@ Produto: Feijão | Preço: 7.8
 Se nada for cadastrado:
 
 Nenhum produto cadastrado.
+
+PSEUDOCÓDIGO:
+
+    criar lista produtos vazia
+
+    ENQUANTO verdadeiro FAÇA
+
+        escrever "Nome do produto (deixe em branco para sair):"
+        ler nome
+
+        SE nome está vazio ENTÃO
+            interromper loop
+        FIMSE
+
+        escrever "Preço de <nome>:"
+        ler preco
+
+        criar dicionário produto com:
+            nome → nome
+            preco → preco
+
+        adicionar produto à lista produtos
+
+    FIMENQUANTO
+
+    SE lista produtos não estiver vazia ENTÃO
+
+        PARA cada p em produtos FAÇA
+            escrever "Produto: <p.nome> | Preço: <p.preco>"
+        FIMPARA
+
+    SENÃO
+        escrever "Nenhum produto cadastrado."
+
+    FIMSE
