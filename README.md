@@ -15,21 +15,14 @@ Entrada	Saída
 16	Entrada não permitida.
 25	Entrada liberada.
 
-🔁 2. Estruturas de Repetição
-🔹 Números Pares com For e While
-
+🔁 2. Estruturas de Repetição 💎 Números Pares com For e While
 O arquivo apresenta duas maneiras diferentes de exibir todos os números pares de 1 a 100:
 
 Usando um loop for
 
 Usando um loop while
 
-🧪 Exemplo de Saída
-2
-4
-6
-...
-100
+📝 Exemplo de Saída 2 4 6 ... 100
 
 📋 3. Listas
 🧑‍🎓 Cadastro e Listagem de Alunos
