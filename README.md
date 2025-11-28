@@ -90,6 +90,41 @@ Se nenhum nome for digitado:
 
 Nenhum aluno foi registrado.
 
+PSEUDOCÓDIGO:
+
+INÍCIO
+
+    criar lista nomes_alunos vazia
+
+    ENQUANTO verdadeiro FAÇA
+
+        escrever "Digite o nome do aluno (deixe em branco para sair):"
+        ler nome
+
+        SE nome está vazio OU contém apenas espaços ENTÃO
+            interromper loop
+        SENÃO
+            adicionar nome à lista nomes_alunos
+        FIMSE
+
+    FIMENQUANTO
+
+    escrever "Lista de alunos:"
+
+    SE lista nomes_alunos NÃO estiver vazia ENTÃO
+
+        PARA cada aluno EM nomes_alunos FAÇA
+            escrever aluno
+        FIMPARA
+
+    SENÃO
+
+        escrever "Nenhum aluno foi registrado."
+
+    FIMSE
+
+FIM
+
 🧾 4. Dicionários
 🛒 Cadastro de Produtos (nome e preço)
 
